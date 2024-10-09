@@ -47,4 +47,4 @@ int main() {
 ![Screenshot 2024-10-09 160503](https://github.com/user-attachments/assets/663d4f37-272f-4b63-9e19-334d93346965)
 
 ## RESULT: 
-The program for implementing AES encryption and decryption is executed successfully.
+The program for implementing DES encryption and decryption is executed successfully.
