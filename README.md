@@ -16,35 +16,33 @@ REGNO:212223240175
 #include <stdio.h>
 #include <string.h>
 
-// XOR encryption function
-void xor_encrypt_decrypt(char *input, char *key) {
-    int input_len = strlen(input);
-    int key_len = strlen(key);
 
-    for (int i = 0; i < input_len; i++) {
-        input[i] = input[i] ^ key[i % key_len]; // XOR encryption
-    }
+  void xor_encrypt_decrypt(char *input, char *key) {
+int input_len = strlen(input);
+int key_len = strlen(key);
+
+for (int i = 0; i < input_len; i++) {
+    input[i] = input[i] ^ key[i % key_len]; 
+}
 }
 
 int main() {
-    char url[] = "https://www.google.com/";
-    char key[] = "secretkey"; // Simple key for XOR encryption
+char url[] = "https://lms2.cse.saveetha.in";
+char key[] = "secretkey"; 
 
-    printf("Original URL: %s\n", url);
+printf("Original URL: %s\n", url);
 
-    // Encrypt the URL
-    xor_encrypt_decrypt(url, key);
-    printf("Encrypted URL: %s\n", url);
+xor_encrypt_decrypt(url, key);
+printf("Encrypted URL: %s\n", url);
 
-    // Decrypt the URL (since XOR is reversible using the same key)
-    xor_encrypt_decrypt(url, key);
-    printf("Decrypted URL: %s\n", url);
+xor_encrypt_decrypt(url, key);
+printf("Decrypted URL: %s\n", url);
 
-    return 0;
+return 0;
 }
 ```
 ## OUTPUT:
-![Screenshot 2024-10-09 160503](https://github.com/user-attachments/assets/663d4f37-272f-4b63-9e19-334d93346965)
+![Screenshot 2024-10-09 161149](https://github.com/user-attachments/assets/00035564-cd0e-4c36-bf7f-51071baf6fa0)
 
 ## RESULT: 
 The program for implementing DES encryption and decryption is executed successfully.
