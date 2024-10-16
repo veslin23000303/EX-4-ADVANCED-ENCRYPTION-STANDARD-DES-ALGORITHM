@@ -13,6 +13,7 @@
 ```
 NAME:VESLIN ANISH A
 REGNO:212223240175
+
 #include <stdio.h>
 #include <string.h>
 
@@ -27,7 +28,7 @@ for (int i = 0; i < input_len; i++) {
 }
 
 int main() {
-char url[] = "https://lms2.cse.saveetha.in";
+char url[] = "https://veslinanish.in";
 char key[] = "secretkey"; 
 
 printf("Original URL: %s\n", url);
@@ -42,7 +43,8 @@ return 0;
 }
 ```
 ## OUTPUT:
-![Screenshot 2024-10-09 161149](https://github.com/user-attachments/assets/00035564-cd0e-4c36-bf7f-51071baf6fa0)
+
+![Screenshot 2024-10-16 102700](https://github.com/user-attachments/assets/58080d47-a83d-4d6e-9b32-e9f8b5c8d29a)
 
 ## RESULT: 
 The program for implementing DES encryption and decryption is executed successfully.
